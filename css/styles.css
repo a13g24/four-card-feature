@@ -1,0 +1,96 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan: hsl(180, 62%, 55%);
+    --primary-orange: hsl(34, 97%, 64%);
+    --primary-blue: hsl(212, 86%, 64%);
+    --neutral-dark-blue: hsl(234, 12%, 34%);
+    --neutral-gray-blue: hsl(229, 6%, 66%);
+    --neutral-light-gray: hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--neutral-light-gray);
+}
+
+/* mobile */
+@media screen and (max-width: 375px ) {
+    .container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+/* main styles */
+
+.main-heading {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.sub-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+header p {
+    text-align: center;
+    margin: 13px auto 6rem;
+    line-height: 1.5rem;
+    max-width: 320px;
+}
+
+/* cards */
+.card {
+    width: 90%;
+    min-height: 230px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: -2px 12px 19px 0px #d2d2d2;
+    border-top: 6px solid black;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card p {
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.supervisor {
+    border-color: var(--primary-cyan);
+}
+.team-builder{
+    border-color: var(--primary-red);
+}
+.karma {
+    border-color: var(--primary-orange);
+}
+.calculator {
+    border-color: var(--primary-blue);
+}

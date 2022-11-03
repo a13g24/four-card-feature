@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Screenshots
 
-Desktop | Mobile
-![Design preview for the desktop and mobile layouts](./screenshot-desktop-mobile-sidebyside.jpg)
+![Gif of responsive design](./four-cards-responsive.gif)
 
 ## My process
 
